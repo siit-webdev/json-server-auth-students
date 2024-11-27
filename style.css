@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+body {
+    font-family: "Raleway", serif;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+.card-1 {
+    border: 1px solid;
+    padding: 1rem;
+    width: 20rem;
+}
+
+.login-form-field {
+    margin-bottom: 0.5rem;
+}
+
+.login-form-field label {
+    display: inline-block;
+    min-width: 5rem;
+}
+
+#login-form .error{
+    color: #bc0505;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+#login-button {
+    margin-left: 5rem;
+}
+
+#profile-component {
+    display: none;
+}
+
+#profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+#profile-card .avatar {
+    width: 5rem;
+}
+
+.profile-property {
+    font-size: 0.9rem;
+}

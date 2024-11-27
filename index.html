@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>Homework</h1>
+
+    <!-- Login form -->
+    <div id="login-component">
+        <div id="login-form" class="card-1">
+            <h2>Login</h2>
+            <div class="login-form-field">
+                <label for="login-email">email</label>
+                <input type="text" id="login-email">
+            </div>
+            <div class="login-form-field">
+                <label for="login-password">password</label>
+                <input type="password" id="login-password">
+            </div>
+            <div id="login-error" class="login-form-field error">
+                Display login errors here
+            </div>
+            <div class="login-form-field">
+                <button id="login-button">login</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Profile -->
+    <div id="profile-component">
+        <div id="profile-card" class="card-1">
+            <h2>Welcome, <span id="profile-name">[profile name]</span> </h2>
+            <img src="https://api.dicebear.com/9.x/fun-emoji/svg" class="avatar" alt="profile-picture">
+            <div class="profile-property">
+               <span id="profile-email">email@email.ro</span>
+            </div>
+            <div class="profile-property">
+                <span id="profile-location">Brasov</span>
+             </div>
+            <button id="logout-button">logout</button>
+        </div>
+    </div>
+</body>
+</html>

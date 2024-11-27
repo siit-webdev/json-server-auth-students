@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "email": "user1@test.ro",
+      "password": "$2a$10$ymavdQ9H7NRnT4sgCsIz7u6YJyp1mhEZ8JGxl8SMkpzTJZHNtRCDa",
+      "name": "Ana Andone",
+      "avatar": "https://api.dicebear.com/9.x/fun-emoji/svg?seed=Ana",
+      "location": "Alba-Iulia",
+      "id": 1
+    },
+    {
+      "email": "user2@test.ro",
+      "password": "$2a$10$PqlB9Ce4siCv.CpA5r2g8OLuyxoEFlTUcLsj30DmkMKOpDc5s8hEG",
+      "name": "Bogdan Barbu",
+      "avatar": "https://api.dicebear.com/9.x/fun-emoji/svg?seed=Bob",
+      "location": "București",
+      "id": 2
+    },
+    {
+      "email": "user3@test.ro",
+      "password": "$2a$10$uK8.1j3iAlmLku1a5.oXAeIbFqGLiM//ewgT3m4D3MQQ1cN6VtH4m",
+      "name": "Crin Coman",
+      "avatar": "https://api.dicebear.com/9.x/fun-emoji/svg?seed=Crin",
+      "location": "Cucuteni",
+      "id": 3
+    }
+  ],
+  "grades": [
+    {
+        "userId": 1,
+        "date": "2024-09-23",
+        "type": "Quiz",
+        "grade": 8.99,
+        "id": 1
+    },
+    {
+        "userId": 2,
+        "date": "2024-09-23",
+        "type": "Quiz",
+        "grade": 8.99,
+        "id": 2
+    },
+    {
+        "userId": 1,
+        "date": "2024-10-13",
+        "type": "Homework",
+        "grade": 6.99,
+        "id": 3
+    },
+    {
+        "userId": 2,
+        "date": "2024-10-13",
+        "type": "Homework",
+        "grade": 7.36,
+        "id": 4
+    }
+  ]
+}
