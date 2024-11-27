@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homework</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
 </head>
+
 <body>
     <h1>Homework</h1>
 
@@ -34,16 +36,43 @@
     <!-- Profile -->
     <div id="profile-component">
         <div id="profile-card" class="card-1">
-            <h2>Welcome, <span id="profile-name">[profile name]</span> </h2>
-            <img src="https://api.dicebear.com/9.x/fun-emoji/svg" class="avatar" alt="profile-picture">
-            <div class="profile-property">
-               <span id="profile-email">email@email.ro</span>
+            <div class="header">
+                <h2>Welcome, <span id="profile-name">[profile name]</span></h2>
+                <button id="logout-button">logout</button>
             </div>
-            <div class="profile-property">
-                <span id="profile-location">Brasov</span>
-             </div>
-            <button id="logout-button">logout</button>
+            <div id="profile-container">
+                <div id="profile-info">
+                    <img src="https://api.dicebear.com/9.x/fun-emoji/svg" class="avatar" alt="profile-picture">
+                    <div class="profile-property">
+                        <span id="profile-email">email@email.ro</span>
+                    </div>
+                    <div class="profile-property">
+                        <span id="profile-location">Brasov</span>
+                    </div>
+                </div>
+    
+                <div id="profile-grades">
+                    <h3>Your Grades: </h3>
+                    <div id="grades-container">
+                        <div class="grades-list">
+                            <div class="grades-row">
+                                <div class="grades-col">1. </div>
+                                <div class="grades-col">2024-12-13</div>
+                                <div class="grades-col">9.99</div>
+                                <div class="grades-col">Quiz</div>
+                            </div>
+                            <div class="grades-row">
+                                <div class="grades-col">2. </div>
+                                <div class="grades-col">2024-12-13</div>
+                                <div class="grades-col">5.39</div>
+                                <div class="grades-col">Homework</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+
 </html>

@@ -5,13 +5,13 @@ body {
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .card-1 {
     border: 1px solid;
     padding: 1rem;
-    width: 20rem;
+    width: 22rem;
 }
 
 .login-form-field {
@@ -23,9 +23,9 @@ h2 {
     min-width: 5rem;
 }
 
-#login-form .error{
+#login-form .error {
     color: #bc0505;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     text-align: center;
 }
 
@@ -37,17 +37,52 @@ h2 {
     display: none;
 }
 
-#profile-card {
+#profile-component .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile-container {
+    display: flex;
+    column-gap: 1.5rem;
+    justify-content: space-between;
+}
+
+#profile-container h3 {
+    font-size: 1rem;
+}
+
+#profile-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 1rem;
 }
 
-#profile-card .avatar {
+#profile-info .avatar {
     width: 5rem;
+}
+
+#profile-email{
+    font-size: .7rem;
 }
 
 .profile-property {
     font-size: 0.9rem;
+}
+
+.grades-row {
+    padding-bottom: .2rem;
+    margin-bottom: 0.4rem;    
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.grades-col {
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+.grades-col:not(:first-child) {
+    margin-right: .6rem;
 }
