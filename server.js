@@ -20,11 +20,11 @@ app.use(auth)
 // Middleware to filter grades based on logged-in user
 app.use((req, res, next) => {
     if (req.method === 'GET' && req.path === '/grades') {
-        console.log(req.claims);
-        
         if (!req.claims || !req.claims.sub) {
             return res.status(401).json({ error: 'Unauthorized' });
         }
+
+        console.log(`Logged in user: ${JSON.stringify(req.claims)}`);
 
         const userId = Number(req.claims.sub);
         const grades = app.db
